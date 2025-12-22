@@ -30,6 +30,7 @@ public class GreetingController {
 
     @Autowired
     private JwtUtils  jwtUtils;
+    @Autowired
     private AuthenticationManager authenticationManager;
 
 
